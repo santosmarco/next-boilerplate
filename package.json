@@ -5,19 +5,25 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "format": "prettier --write . --ignore-path .gitignore",
     "lint": "next lint",
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "1.7.17",
+    "@radix-ui/react-slot": "1.0.2",
     "clsx": "2.0.0",
+    "lodash": "4.17.21",
     "next": "13.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "4.11.0",
     "tailwind-merge": "1.14.0"
   },
   "devDependencies": {
     "@tailwindcss/forms": "0.5.6",
     "@types/eslint": "8.44.2",
+    "@types/lodash": "4.14.198",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",

@@ -5,7 +5,8 @@
  */
 const nextConfig = {
   images: {
-    domains: ["images.unsplash.com"],
+    domains: ["images.unsplash.com", "tailwindui.com"],
+    dangerouslyAllowSVG: true,
   },
   experimental: {
     typedRoutes: true,
