@@ -5,6 +5,8 @@
  */
 const prettierConfig = {
   plugins: ["prettier-plugin-tailwindcss"],
+  tailwindFunctions: ["cva", "cn"],
+  tailwindConfig: "./tailwind.config.ts",
 };
 
 export default prettierConfig;
