@@ -1,7 +1,7 @@
 import { AppShell } from "@/components/layout/AppShell/AppShell";
 import { COMPANY_NAME } from "@/constants/company";
+import { cn } from "@/lib/utils";
 import type { ReactComponent } from "@/types";
-import { cn } from "@/utils";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 const RootLayout: ReactComponent = ({ children }) => {
   return (
-    <html lang="en" className={cn("h-full bg-white", inter.variable)}>
+    <html lang="en" className={cn("h-full", inter.variable)}>
       <body className="h-full">
         <AppShell>{children}</AppShell>
       </body>

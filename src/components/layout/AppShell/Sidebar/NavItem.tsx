@@ -1,5 +1,5 @@
+import { cn } from "@/lib/utils";
 import type { ReactComponent } from "@/types";
-import { cn } from "@/utils";
 import { Slot } from "@radix-ui/react-slot";
 import type { Route } from "next";
 import Link from "next/link";

@@ -1,6 +1,6 @@
+import { cn } from "@/lib/utils";
 import { userNavigation } from "@/navigation";
 import type { ReactComponent } from "@/types";
-import { cn } from "@/utils";
 import { Menu, Transition } from "@headlessui/react";
 import _ from "lodash";
 import Image from "next/image";
